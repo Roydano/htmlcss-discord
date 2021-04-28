@@ -9,6 +9,10 @@
 
 
 /* common */
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
 
 
 
@@ -18,6 +22,7 @@
 /* sezione header */
 nav{
     height: 70px;
+
 }
 
 
