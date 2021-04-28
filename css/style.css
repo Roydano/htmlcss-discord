@@ -43,6 +43,7 @@ nav{
 
 nav img{
     vertical-align: middle;
+    cursor: pointer;
     
 }
 
@@ -55,12 +56,14 @@ nav ul{
 nav li a{
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     margin: 10px;
     padding: 10px;
 }
 
-nav .btn{
+nav .btn a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
    
 }
 
@@ -77,14 +80,19 @@ nav .btn{
 /* prima sezione */
 
 
+/* sezione hover */
 
+nav li:hover a{
+    text-decoration: underline;
+}
 
+.btn:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
 
-
-
-
-
-
+.btn:hover a{
+    color: dodgerblue;
+}
 
 
 
