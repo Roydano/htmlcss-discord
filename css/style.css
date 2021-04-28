@@ -19,7 +19,7 @@ body{
    
 }
 
-li{
+nav li{
     display: inline-block;
 }
 
@@ -203,11 +203,19 @@ nav .btn a{
 
 /* sezione footer */
 
+footer{
+    background-color: #23272a;
+    height: 650px;
+    
+}
+
+
 /* colona di sinistra */
 .column{
     padding: 60px 0;
     width: 30%;
     float: left;
+    margin-right: 100px;
 }
 
 
@@ -230,14 +238,66 @@ footer .social i{
     font-size: 20px;
     margin-right: 20px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 
 /* sezione colonne più piccole */
 
-.column-little{
+
+.column-list{
+    width: calc(70% / 4 - 25px);
     float: left;
+    margin: 62px 0 30px;
 }
+
+.column-list li{
+    list-style: none;
+    margin: 8px 0;
+}
+
+.column-list a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.column-list li:first-child a{
+    color: #7289da;
+}
+
+hr{
+    color: #7289da;
+}
+/* sezione footer bassa */
+
+.bottom-footer{
+    position: relative;
+    /* margin-bottom: 150px; */
+    
+}
+
+.bottom-footer img{
+    position: absolute;
+    left: 0;
+    top: 25px;
+    cursor: pointer;
+}
+
+.bottom-footer .btn{
+    position: absolute;
+    right: 0;
+    top: 25px;
+    background-color: #8ea1e1;
+
+}
+
+.bottom-footer a{
+    text-decoration: none;
+    color: white;
+}
+
 
 /* sezione hover */
 
@@ -261,6 +321,11 @@ nav li:hover a{
     background-color: #36393f;
 }
 
+
+.column-list li:hover a{
+    text-decoration: underline;
+}
+}
 
 
 
@@ -293,19 +358,24 @@ nav li:hover a{
     background-color: green;
 } */
 
-.debug footer{
+/* .debug footer{
     height: 600px;
-    background-color: #23272a;
+    
 
-}
+} */
 
-.debug .column{
+/* .debug .column{
     height: 300px;    
     background-color: hotpink;
-}
-
+} */
+/* 
 .debug .column-little{
     height: 300px;
     width: 70%;
     background-color: yellow;
-}
+} */
+
+/* .debug .column-list{
+    height: 150px;
+    background-color: indigo;
+} */
