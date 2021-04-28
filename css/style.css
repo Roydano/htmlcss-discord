@@ -32,6 +32,7 @@ font-weight: bold;
 
 
 /* sezione header */
+
 nav{
     height: 70px;
     background-color: #3161e0;
@@ -68,10 +69,11 @@ nav .btn a{
 }
 
 
-
-
 .jumbotron{
-    height: 600px;
+    height: 580px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -101,14 +103,14 @@ nav li:hover a{
 
 /* sezione debug */
 
-.debug nav{
-    /* width: 100%; */
+/* .debug nav{
+    /* width: 100%;
     
-}
+} */
 
-.debug .jumbotron{
+/* .debug .jumbotron{
     background-color: chartreuse;
-}
+} */
 
 .debug section.box-section{
     height: 600px;
