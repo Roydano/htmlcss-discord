@@ -24,7 +24,15 @@ border-radius: 20px;
 padding: 10px 15px;
 border-style: none;
 font-weight: bold;
+background-color: #ffffff;
 }
+
+header .jumbotron a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+
 
 
 
@@ -33,6 +41,8 @@ font-weight: bold;
 
 /* sezione header */
 
+
+/* menu in alto */
 nav{
     height: 70px;
     background-color: #3161e0;
@@ -62,11 +72,17 @@ nav li a{
     padding: 10px;
 }
 
+nav div.btn{
+    display: inline;
+}
+
 nav .btn a{
     text-decoration: none;
     color: rgb(49, 49, 49);
    
 }
+
+/* jumbotron */
 
 
 .jumbotron{
@@ -74,12 +90,57 @@ nav .btn a{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
+    position: relative; 
+}
+
+.jumbo-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.jumbo-txt{
+    color: white;       
+}
+
+.jumbo-txt h2{
+    font-size: 60px;   
+}
+
+.jumbo-txt p{
+    font-size: 19px;
+    margin-top: 40px;
+    font-weight: 600;
+    
+}
+
+/* pulsanti jumbotron */
+
+.jumbotron .btn a{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 15px;
+}
+
+.btn i{
+    margin-right:10px;
 }
 
 
 .jumbotron .btn{
-    background-color: #ffffff;
-    float: left;
+    display: inline-block;
+    margin: 35px 20px;
+}
+
+.jumbotron .btn-black{
+    background-color: #23272a;
+}
+
+.jumbotron .btn-black a{
+    color: white;
 }
 
 .clearfix::after{
@@ -105,6 +166,14 @@ nav li:hover a{
 
 .btn:hover a{
     color: dodgerblue;
+}
+
+.btn-black:hover a{
+    color: white;
+}
+
+.btn-black:hover{
+    background-color: #36393f;
 }
 
 
