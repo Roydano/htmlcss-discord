@@ -5,3 +5,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/* common */
+
+
+
+
+
+
+/* sezione header */
+nav{
+    height: 70px;
+}
+
+
+.jumbotron{
+    height: 600px;
+}
+
+
+/* sezione main */
+
+/* prima sezione */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sezione debug */
+
+.debug nav{
+    /* width: 100%; */
+    background-color: blue;
+}
+
+.debug .jumbotron{
+    background-color: chartreuse;
+}
+
+.debug section.box-section{
+    height: 600px;
+    background-color: red;
+}
