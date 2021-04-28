@@ -164,7 +164,31 @@ nav .btn a{
 
 /* prima sezione */
 
+.box-section .container{
+    margin-top: 100px;
+}
 
+.box-left{
+    float: left;
+    width: 70%;
+}
+
+
+.box-right{
+    float: left;
+    width: 30%;
+}
+
+
+.txt-box-right h2{
+    font-size: 50px;
+
+}
+
+.txt-box-right p{
+    font-size: 20px;
+    margin-top: 20px;
+}
 
 
 
@@ -206,7 +230,18 @@ nav li:hover a{
     background-color: chartreuse;
 } */
 
-.debug section.box-section{
+/* .debug section.box-section{
     height: 600px;
     background-color: red;
 }
+
+.debug .container .box-left{
+    height: 500px;    
+    background-color: yellow;
+
+} */
+/* 
+.debug .container .box-right{
+    height: 500px;    
+    background-color: green;
+} */
